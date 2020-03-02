@@ -17,7 +17,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MediaCard() {
+export default function MacroCard() {
   const classes = useStyles();
 
   return (
@@ -30,11 +30,10 @@ export default function MediaCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            Macro Calculator
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            Macro Calculator is a simple way for you to develop a health guide according to your weight loss or weight gain plan.
           </Typography>
         </CardContent>
       </CardActionArea>

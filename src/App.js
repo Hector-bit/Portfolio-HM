@@ -3,7 +3,8 @@ import northwestpic from './northwestforest.png';
 import './App.css';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import MediaCard from './components/projectCards';
+import HackathonCard from './components/HackathonCard';
+import MacroCard from './components/MacroCard';
 
 function App() {
   let sectionStyle = {
@@ -23,7 +24,8 @@ function App() {
       </section>
       <section className='top-section' styles={sectionStyle}>
         <div>Projects</div>
-        <MediaCard></MediaCard>
+        <HackathonCard></HackathonCard>
+        <MacroCard></MacroCard>
       </section>
     </div>
   );
