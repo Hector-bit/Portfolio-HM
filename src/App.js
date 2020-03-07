@@ -5,15 +5,18 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HackathonCard from './components/HackathonCard';
 import MacroCard from './components/MacroCard';
+import { makeStyles } from '@material-ui/core/styles';
+// import classes from '*.module.css';
+
+const useStyles = makeStyles({
+  projects: {
+    display: 'flex',
+    border: '2px solid red'
+  }
+})
 
 function App() {
-  let sectionStyle = {
-    width: "100%",
-    height: "400px",
-    border: 'solid red 3px',
-    backgroundColor: 'black',
-    backgroundImage: northwestpic
-  };
+  const classes = useStyles();
 
   return (
     <div className="App">
@@ -22,10 +25,12 @@ function App() {
         <a className='git' href='https://github.com/Hector-bit/'><GitHubIcon></GitHubIcon></a>
         <a className='link' href='https://www.linkedin.com/in/hector-martinez-8a2640193/'><LinkedInIcon/></a>
       </section>
-      <section className='top-section' styles={sectionStyle}>
+      <section className='top-section'>
         <div>Projects</div>
-        <HackathonCard></HackathonCard>
-        <MacroCard></MacroCard>
+        <div className={classes.projects}>
+          <HackathonCard></HackathonCard>
+          <MacroCard></MacroCard>
+        </div>
       </section>
     </div>
   );
