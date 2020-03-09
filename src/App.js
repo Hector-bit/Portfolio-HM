@@ -9,6 +9,11 @@ import { makeStyles } from '@material-ui/core/styles';
 // import classes from '*.module.css';
 
 const useStyles = makeStyles({
+  mainpage: {
+    border: '2px solid red',
+    margin: 'auto',
+    maxWidth: '1200px'
+  },
   projects: {
     display: 'flex',
     justifyContent: 'center',
@@ -25,7 +30,7 @@ function App() {
         <a className='git' href='https://github.com/Hector-bit/'><GitHubIcon></GitHubIcon></a>
         <a className='link' href='https://www.linkedin.com/in/hector-martinez-8a2640193/'><LinkedInIcon/></a>
       </section>
-      <section className='top-section'>
+      <section className={classes.mainpage}>
         <div>Projects</div>
         <div className={classes.projects}>
           <HackathonCard/>
