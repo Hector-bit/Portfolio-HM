@@ -11,7 +11,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
   projects: {
     display: 'flex',
-    border: '2px solid red'
+    justifyContent: 'center',
   }
 })
 
@@ -28,8 +28,8 @@ function App() {
       <section className='top-section'>
         <div>Projects</div>
         <div className={classes.projects}>
-          <HackathonCard></HackathonCard>
-          <MacroCard></MacroCard>
+          <HackathonCard/>
+          <MacroCard/>
         </div>
       </section>
     </div>
