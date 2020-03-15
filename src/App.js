@@ -18,7 +18,7 @@ const useStyles = makeStyles({
     padding: '0 2%',
     height: '60px',
     color: 'white',
-    fontSize: '20px',
+    fontSize: '22px',
     backgroundColor: 'black',
   },
   mainpage: {
@@ -31,6 +31,7 @@ const useStyles = makeStyles({
   },
   icons: {
     display: 'flex',
+    flexDirection: 'row',
     padding: '0 2%',
     border: '2px solid blue',
     color: 'white'
