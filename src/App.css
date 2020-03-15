@@ -25,3 +25,18 @@
   color: white;
 }
 
+@media only screen and (max-width: 600px) {
+  /* body {
+    border: 2px solid blue;
+    background-color: lightgreen;
+    margin: auto;
+  } */
+
+  .makeStyles-projects-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid blue;
+  }
+}
+

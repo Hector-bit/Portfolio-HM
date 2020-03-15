@@ -10,7 +10,6 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
   mainpage: {
-    border: '2px solid red',
     margin: 'auto',
     maxWidth: '1200px'
   },
