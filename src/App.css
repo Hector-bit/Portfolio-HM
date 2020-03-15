@@ -4,17 +4,6 @@
   background-image: url("/northwestforest.png");
 } */
 
-.header {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0 2%;
-  height: 60px;
-  color: white;
-  font-size: 20px;
-  background-color: black;
-}
-
 .git {
   padding: 0 2%;
   color: white;
@@ -32,11 +21,10 @@
     margin: auto;
   } */
 
-  .makeStyles-projects-2{
+  .makeStyles-projects-3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid blue;
   }
 }
 
