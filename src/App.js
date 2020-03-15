@@ -31,7 +31,7 @@ function App() {
         <a className='link' href='https://www.linkedin.com/in/hector-martinez-8a2640193/'><LinkedInIcon/></a>
       </section>
       <section className={classes.mainpage}>
-        <div>Projects</div>
+        <h2>Projects</h2>
         <div className={classes.projects}>
           <HackathonCard/>
           <MacroCard/>
