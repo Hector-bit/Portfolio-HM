@@ -5,12 +5,10 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import HackathonCard from './components/HackathonCard';
 import MacroCard from './components/MacroCard';
 import { makeStyles } from '@material-ui/core/styles';
-// import classes from '*.module.css';
 
 const useStyles = makeStyles({
   header: {
     display: 'flex',
-    // justifyContent: 'flex-start',
     border: '2px solid red',
     alignItems: 'center',
     padding: '0 2%',
@@ -43,7 +41,7 @@ function App() {
     <div className="App">
       <section className={classes.header}>
         <div className={classes.icons}>Hector Martinez</div>
-        <a className={classes.icons} href='https://github.com/Hector-bit/'><GitHubIcon></GitHubIcon></a>
+        <a className={classes.icons} href='https://github.com/Hector-bit/'><GitHubIcon/></a>
         <a className={classes.icons} href='https://www.linkedin.com/in/hector-martinez-8a2640193/'><LinkedInIcon/></a>
       </section>
       <section className={classes.mainpage}>
