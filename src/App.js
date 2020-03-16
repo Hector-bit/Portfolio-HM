@@ -1,12 +1,10 @@
 import React from 'react';
-import northwestpic from './northwestforest.png';
 import './App.css';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HackathonCard from './components/HackathonCard';
 import MacroCard from './components/MacroCard';
 import { makeStyles } from '@material-ui/core/styles';
-import { LARGE } from 'material-ui/utils/withWidth';
 // import classes from '*.module.css';
 
 const useStyles = makeStyles({
