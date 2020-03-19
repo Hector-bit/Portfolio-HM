@@ -1,14 +1,22 @@
 import React from 'react';
-import northwestpic from './northwestforest.png';
 import './App.css';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HackathonCard from './components/HackathonCard';
 import MacroCard from './components/MacroCard';
 import { makeStyles } from '@material-ui/core/styles';
-// import classes from '*.module.css';
 
 const useStyles = makeStyles({
+  header: {
+    display: 'flex',
+    border: '2px solid red',
+    alignItems: 'center',
+    padding: '0 2%',
+    height: '60px',
+    color: 'white',
+    fontSize: '22px',
+    backgroundColor: 'black',
+  },
   mainpage: {
     margin: 'auto',
     maxWidth: '1200px'
@@ -16,6 +24,13 @@ const useStyles = makeStyles({
   projects: {
     display: 'flex',
     justifyContent: 'center',
+  },
+  icons: {
+    display: 'flex',
+    flexDirection: 'row',
+    padding: '0 2%',
+    border: '2px solid blue',
+    color: 'white'
   }
 })
 
@@ -24,10 +39,10 @@ function App() {
 
   return (
     <div className="App">
-      <section className='header'>
-        <div>Hector Martinez</div>
-        <a className='git' href='https://github.com/Hector-bit/'><GitHubIcon></GitHubIcon></a>
-        <a className='link' href='https://www.linkedin.com/in/hector-martinez-8a2640193/'><LinkedInIcon/></a>
+      <section className={classes.header}>
+        <div className={classes.icons}>Hector Martinez</div>
+        <a className={classes.icons} href='https://github.com/Hector-bit/'><GitHubIcon/></a>
+        <a className={classes.icons} href='https://www.linkedin.com/in/hector-martinez-8a2640193/'><LinkedInIcon/></a>
       </section>
       <section className={classes.mainpage}>
         <h2>Projects</h2>
