@@ -28,7 +28,6 @@ const useStyles = makeStyles({
     display: 'flex',
     flexDirection: 'row',
     padding: '0 2%',
-    border: '2px solid blue',
     color: 'white'
   }
 })
