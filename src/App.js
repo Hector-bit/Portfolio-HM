@@ -9,7 +9,6 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
   header: {
     display: 'flex',
-    border: '2px solid red',
     alignItems: 'center',
     padding: '0 2%',
     height: '60px',
@@ -29,7 +28,6 @@ const useStyles = makeStyles({
     display: 'flex',
     flexDirection: 'row',
     padding: '0 2%',
-    border: '2px solid blue',
     color: 'white'
   }
 })
