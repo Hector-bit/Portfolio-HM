@@ -50,6 +50,12 @@ function App() {
           <HackathonCard/>
           <MacroCard/>
         </div>
+        <h2>Tools:</h2>
+        <div>
+          <ul>
+            <li>JavaScript</li>
+          </ul>
+        </div>
       </section>
     </div>
   );
