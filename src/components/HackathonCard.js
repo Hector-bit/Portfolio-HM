@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import HackathonImage from '../images/HackathonPortal.png';
 
 const useStyles = makeStyles({
   root: {
@@ -27,7 +28,7 @@ export default function HackathonCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image={HackathonImage}
           title="Contemplative Reptile"
         />
         <CardContent>
@@ -40,9 +41,9 @@ export default function HackathonCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        {/* <Button size="small" color="primary">
           Share
-        </Button>
+        </Button> */}
         <Button size="small" color="primary">
           Learn More
         </Button>

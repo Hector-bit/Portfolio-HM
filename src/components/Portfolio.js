@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import MacroCardImage from '../images/MacroCalc.png';
+import PortfolioImage from '../images/PortImage.png';
 
 const useStyles = makeStyles({
   root: {
@@ -28,15 +28,15 @@ export default function MacroCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={MacroCardImage}
+          image={PortfolioImage}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Macro Calculator
+            Portfolio Website
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Macro Calculator is a simple way for you to develop a health guide according to your weight loss or weight gain plan.
+            Personal portfolio used to showcase what I can do.
           </Typography>
         </CardContent>
       </CardActionArea>

@@ -19,12 +19,14 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
-  border: 2px solid red;
 }
 
 .tool {
-  border: 2px solid blue;
   padding: 0 9%;
+}
+
+li {
+  font-size: 20px;
 }
 
 @media (max-width: 600px) {

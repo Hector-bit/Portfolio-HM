@@ -4,6 +4,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HackathonCard from './components/HackathonCard';
 import MacroCard from './components/MacroCard';
+import PortfolioWebsite from './components/Portfolio';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
@@ -47,6 +48,7 @@ function App() {
         <div className={classes.projects}>
           <HackathonCard/>
           <MacroCard/>
+          <PortfolioWebsite/>
         </div>
         <h2>Tools:</h2>
         <div className='tools'>
