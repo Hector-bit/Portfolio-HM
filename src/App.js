@@ -49,9 +49,18 @@ function App() {
           <MacroCard/>
         </div>
         <h2>Tools:</h2>
-        <div>
-          <ul>
+        <div className='tools'>
+          <ul className='tool'>
             <li>JavaScript</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Node</li>
+          </ul>
+          <ul className='tool'>
+            <li>Pyhton</li>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
           </ul>
         </div>
       </section>

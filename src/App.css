@@ -14,6 +14,18 @@
   color: white;
 }
 
+.tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid red;
+}
+
+.tool {
+  border: 2px solid blue;
+  padding: 0 9%;
+}
+
 @media (max-width: 600px) {
   /* body {
     border: 2px solid blue;
