@@ -17,6 +17,7 @@
 .tools {
   display: flex;
   flex-direction: row;
+  width: 100%;
   justify-content: space-around;
   border: 2px solid red;
 }
