@@ -26,11 +26,12 @@ export default function MacroCard() {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <CardMedia
+        <a href="https://martinezhector.com/">
+          <CardMedia
           className={classes.media}
           image={PortfolioImage}
-          title="Contemplative Reptile"
-        />
+          title="Contemplative Reptile"/>
+        </a>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             Portfolio Website

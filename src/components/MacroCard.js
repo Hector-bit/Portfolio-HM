@@ -26,11 +26,12 @@ export default function MacroCard() {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <CardMedia
+        <a href="https://macro-calculator.now.sh/">        
+          <CardMedia
           className={classes.media}
           image={MacroCardImage}
-          title="Contemplative Reptile"
-        />
+          title="Contemplative Reptile"/>
+        </a>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             Macro Calculator
