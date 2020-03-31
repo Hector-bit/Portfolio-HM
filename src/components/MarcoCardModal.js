@@ -83,7 +83,7 @@ export default function SpringModal() {
         <Fade in={open}>
           <div className={classes.paper}>
             <h2 id="spring-modal-title">Marco Calculator</h2>
-            <p id="spring-modal-description">react-spring animates me.</p>
+            <p id="spring-modal-description">Macro Calculator is a simple way for you to develop a health guide according to your weight loss or weight gain plan.</p>
           </div>
         </Fade>
       </Modal>

@@ -83,7 +83,7 @@ export default function SpringModal() {
         <Fade in={open}>
           <div className={classes.paper}>
             <h2 id="spring-modal-title">Portfolio Website</h2>
-            <p id="spring-modal-description">react-spring animates me.</p>
+            <p id="spring-modal-description">Personal portfolio used to showcase what I can do.</p>
           </div>
         </Fade>
       </Modal>

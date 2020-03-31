@@ -84,7 +84,7 @@ export default function SpringModal() {
           <div className={classes.paper}>
             <h2 id="spring-modal-title">Hackathon Portal</h2>
             <a></a>
-            <p id="project-description">react-spring animates me.</p>
+            <p id="project-description">Hackathon portal is a place to host, sign up, and judge Hackathon projects.</p>
           </div>
         </Fade>
       </Modal>
