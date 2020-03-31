@@ -8,6 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import HackathonImage from '../images/HackathonPortal.png';
+import HackathonCardModal from './HackathonCardModal';
 
 const useStyles = makeStyles({
   root: {
@@ -26,24 +27,23 @@ export default function HackathonCard() {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <CardMedia
+        <a href="https://hackathon-portal-19-fe.now.sh">
+          <CardMedia
           className={classes.media}
           image={HackathonImage}
-          title="Contemplative Reptile"
-        />
+          title="Contemplative Reptile"/>
+        </a>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             Hackthon Portal
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Hackathon portal is a plave to host, sign up, and judge Hackathon projects.
+            Hackathon portal is a place to host, sign up, and judge Hackathon projects.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
+        <HackathonCardModal/>
       </CardActions>
     </Card>
   );
