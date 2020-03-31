@@ -85,6 +85,9 @@ export default function SpringModal() {
             <h2 id="spring-modal-title">Hackathon Portal</h2>
             <a></a>
             <p id="project-description">Hackathon portal is a place to host, sign up, and judge Hackathon projects.</p>
+            <p>Link: <a href="https://hackathon-portal-19-fe.now.sh">Hackathon Portal</a></p>
+            <p>Premade username: Hector</p>
+            <p>Premade password: Password123</p>
           </div>
         </Fade>
       </Modal>

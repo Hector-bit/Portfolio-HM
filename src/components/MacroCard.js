@@ -26,7 +26,7 @@ export default function MacroCard() {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <a href="https://macro-calculator.now.sh/">        
+        <a href="https://infallible-albattani-8d730d.netlify.com/">        
           <CardMedia
           className={classes.media}
           image={MacroCardImage}
