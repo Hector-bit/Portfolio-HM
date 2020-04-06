@@ -5,6 +5,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import HackathonCard from './components/HackathonCard';
 import MacroCard from './components/MacroCard';
 import PortfolioWebsite from './components/Portfolio';
+import ContactInfo from './components/contactInfo';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
@@ -65,6 +66,7 @@ function App() {
             <li>CSS</li>
           </ul>
         </div>
+        <ContactInfo/>
       </section>
     </div>
   );
