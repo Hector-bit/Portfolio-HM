@@ -85,6 +85,16 @@ export default function SpringModal() {
             <h2 id="spring-modal-title">Marco Calculator</h2>
             <p id="spring-modal-description">Macro Calculator is a simple way for you to develop a health guide according to your weight loss or weight gain plan.</p>
             <p>Link: <a href="https://infallible-albattani-8d730d.netlify.com/">MacroCalculator</a></p>
+            <div>
+            <h3>Stack</h3>
+              <ul>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>Node</li>
+                <li>SQL</li>
+              </ul>
+            </div>
             <p>Premade username: Hector</p>
             <p>Premade password: password</p>
           </div>

@@ -5,5 +5,3 @@ Personal Portfolio contains:
  - Resume PDF
  - Projects
  - Tools
-
- adding more soon
