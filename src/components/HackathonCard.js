@@ -35,7 +35,7 @@ export default function HackathonCard() {
         </a>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Hackthon Portal
+            Hackathon Portal
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             Hackathon portal is a place to host, sign up, and judge Hackathon projects.
