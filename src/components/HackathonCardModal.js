@@ -90,6 +90,7 @@ export default function SpringModal() {
             <h3>Stack</h3>
               <ul>
                 <li>JavaScript</li>
+                <li>Auth0</li>
                 <li>React</li>
                 <li>Redux</li>
                 <li>Node</li>
