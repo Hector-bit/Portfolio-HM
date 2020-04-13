@@ -30,17 +30,17 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Aboutpage/>
       <section className={classes.mainpage}>
+        <Aboutpage/>
         <h2 className='projectsTitle'>Projects</h2>
         <div className={classes.projects}>
           <HackathonCard/>
           <MacroCard/>
           <PortfolioWebsite/>
         </div>
+        <Tools/>
+        <ContactInfo/>
       </section>
-      <Tools/>
-      <ContactInfo/>
     </div>
   );
 }
