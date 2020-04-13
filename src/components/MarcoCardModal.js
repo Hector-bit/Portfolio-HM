@@ -84,7 +84,7 @@ export default function SpringModal() {
           <div className={classes.paper}>
             <h2 id="spring-modal-title">Marco Calculator</h2>
             <p id="spring-modal-description">Macro Calculator is an app that uses user information to create a diet plan.</p>
-            <p>Link: <a href="https://infallible-albattani-8d730d.netlify.com/">MacroCalculator</a></p>
+            <p>Live site: <a href="https://infallible-albattani-8d730d.netlify.com/">MacroCalculator</a></p>
             <div>
             <h3>Stack</h3>
               <ul>
