@@ -3,20 +3,33 @@ import profile_picture from '../images/standin.png';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
-    body: {
+    aboutSection: {
       display: 'flex',
-      flexDirection: 'row'
+      flexDirection: 'column',
+      border: '2px solid red',
+    //   justifyContent: 'center',
+      margin: '1%',
+      padding: '1%',
+      width: '50%'
+    },
+    aboutParagraph: {
+        maxWidth: '90%',
+        margin: '1%'
+    },
+    aboutPicture: {
+        display: 'flex',
+        justifyContent: 'center'
     }
   })
 
 function Aboutpage(){
     const classes = useStyles();
     return(
-        <section>
+        <section className={classes.aboutSection}>
             <h2>About</h2>
-            <div className={classes.body}>
-                <img src={profile_picture} alt='profile picture'/>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div>
+                <img className={classes.aboutPicture} src={profile_picture} alt='profile picture'/>
+                <p className={classes.aboutParagraph}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
         </section>
     )

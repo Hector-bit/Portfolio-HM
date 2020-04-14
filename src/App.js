@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
 import Header from './components/header';
 import HackathonCard from './components/HackathonCard';
 import Aboutpage from './components/aboutpage';
@@ -15,6 +13,11 @@ const useStyles = makeStyles({
   mainpage: {
     margin: 'auto',
     maxWidth: '1200px'
+  },
+  tools_and_about: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-evenly'
   },
   projects: {
     display: 'flex',
@@ -31,14 +34,16 @@ function App() {
     <div className="App">
       <Header/>
       <section className={classes.mainpage}>
-        <Aboutpage/>
+        <div className={classes.tools_and_about}>
+          <Aboutpage/>
+          <Tools/>
+        </div>
         <h2 className='projectsTitle'>Projects</h2>
         <div className={classes.projects}>
           <HackathonCard/>
           <MacroCard/>
           <PortfolioWebsite/>
         </div>
-        <Tools/>
         <ContactInfo/>
       </section>
     </div>
