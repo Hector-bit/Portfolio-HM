@@ -7,7 +7,7 @@ const useStyles = makeStyles({
       display: 'flex',
       flexDirection: 'column',
       border: '2px solid red',
-    //   justifyContent: 'center',
+      justifyContent: 'center',
       margin: '1%',
       padding: '1%',
       width: '50%'
