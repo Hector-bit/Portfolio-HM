@@ -28,7 +28,7 @@ function Aboutpage(){
         <section className={classes.aboutSection}>
             <h2>About</h2>
             <div>
-                <img className={classes.aboutPicture} src={profile_picture} alt='profile picture'/>
+                <img className={classes.aboutPicture} src={profile_picture} alt='Hector Martinez'/>
                 <p className={classes.aboutParagraph}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
         </section>
