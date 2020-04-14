@@ -8,6 +8,10 @@
   color: white;
 }
 
+.titleSection {
+  background-image: url(./images/background.jpg);
+}
+
 .tools {
   display: flex;
   flex-direction: row;

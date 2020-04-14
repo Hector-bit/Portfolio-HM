@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Title from './components/title';
 import Header from './components/header';
 import HackathonCard from './components/HackathonCard';
 import Aboutpage from './components/aboutpage';
@@ -33,6 +34,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <Title/>
       <section className={classes.mainpage}>
         <div className={classes.tools_and_about}>
           <Aboutpage/>
