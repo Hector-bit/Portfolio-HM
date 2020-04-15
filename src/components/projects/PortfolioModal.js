@@ -90,7 +90,6 @@ export default function SpringModal() {
               <ul>
                 <li>JavaScript</li>
                 <li>React</li>
-                <li>Redux</li>
               </ul>
             </div>
           </div>
