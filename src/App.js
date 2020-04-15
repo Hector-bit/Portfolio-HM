@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Title/>
+      {/* <Title/> */}
       <section className={classes.mainpage}>
         <div className={classes.tools_and_about}>
           <Aboutpage/>

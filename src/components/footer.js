@@ -3,7 +3,7 @@ import React from 'react';
 function Footer(){
     return(
         <section>
-            Footer
+            Copyright © martinezhector.com 2020
         </section>
     )
 }
