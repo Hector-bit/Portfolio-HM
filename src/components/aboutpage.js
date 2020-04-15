@@ -20,10 +20,10 @@ const useStyles = makeStyles({
         width: '200px',
         heigth: '200px'
     },
-    aboutDiv: {
-        display: 'flex',
-        flexDirection: 'row',
-    }
+    // aboutDiv: {
+    //     display: 'flex',
+    //     flexDirection: 'row',
+    // }
   })
 
 function Aboutpage(){
@@ -31,7 +31,7 @@ function Aboutpage(){
     return(
         <section className={classes.aboutSection}>
             <h2>About</h2>
-            <div className={classes.aboutDiv}>
+            <div className='aboutDiv'>
                 <img className={classes.aboutPicture} src={profile_picture} alt='Hector Martinez'/>
                 <p className={classes.aboutParagraph}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>

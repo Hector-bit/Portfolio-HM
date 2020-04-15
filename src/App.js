@@ -14,12 +14,12 @@ const useStyles = makeStyles({
     margin: 'auto',
     maxWidth: '1200px',
   },
-  tools_and_about: {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'space-evenly',
-    margin: '5% 0',    
-  }
+  // tools_and_about: {
+  //   display: 'flex',
+  //   flexDirection: 'colunm',
+  //   justifyContent: 'space-evenly',
+  //   margin: '5% 0',    
+  // }
 })
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
       <Header/>
       {/* <Title/> */}
       <section className={classes.mainpage}>
-        <section className={classes.tools_and_about}>
+        <section className='about_and_tools'>
           <Aboutpage/>
           <Tools/>
         </section>
