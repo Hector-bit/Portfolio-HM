@@ -34,7 +34,7 @@ function Aboutpage(){
             <h2>About</h2>
             <div className='aboutDiv'>
                 <img className={classes.aboutPicture} src={profile_of_me} alt='Hector Martinez'/>
-                <p className={classes.aboutParagraph}>I am a highly capable, full stack developer with experience programming everything from Web API's to Embedded systems. My diverse background across a wide range of problem domains allows me to approach issues in a pragmatic and all-encompassing way.</p>
+                <p className={classes.aboutParagraph}>Hello my name is Hector, I am a highly capable, full stack developer with experience programming everything from Web API's to Front-end development. My diverse background across a wide range of problem domains allows me to approach issues in an all-encompassing way.</p>
             </div>
         </section>
     )
