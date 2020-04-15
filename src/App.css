@@ -82,37 +82,11 @@ li {
     border: 2px solid red;
     align-items: center;
     flex-direction: column;
-    /* width: 100%; */
   }
-  /* .jss2{
+  .jss2{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .jss14{
-    display: flex;
-    flex-direction: column;
-  }
-  .jss21{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .makeStyles-tools_and_about-2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .makeStyles-aboutDiv-16{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid red;
-  }
-  .jss21{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-   */
 }
 
