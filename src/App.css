@@ -29,6 +29,10 @@ li {
   font-size: 20px;
 }
 
+.about_section {
+  border: 2px solid red;
+  width: 50%;
+}
 .about_and_tools {
   display: flex;
   flex-direction: row;
@@ -37,22 +41,48 @@ li {
 .aboutDiv {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin: 1%;
+  padding: 1%;
+}
+
+.tools_tool{
+  border: 2px solid blue;
+  width: 50%;
 }
 
 @media (max-width: 600px) {
   .about_and_tools {
     display: flex;
     flex-direction: column;
+    align-items: center;
     border: 2px solid red;
+    /* width: 100%; */
+  }
+
+  .about_section{
+    width: auto;
   }
   
   .aboutDiv {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    align-items: center;
+    border: 2px solid blue;
+    justify-content: center;
+    /* width: 100%; */
+  }
+  .tools_tool{
     width: 100%;
   }
-  .jss2{
+  .makeStyles-tools_about-16{
+    display: flex;
+    border: 2px solid red;
+    align-items: center;
+    flex-direction: column;
+    /* width: 100%; */
+  }
+  /* .jss2{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,12 +105,12 @@ li {
     display: flex;
     flex-direction: column;
     border: 2px solid red;
-    /* width: 100% */
   }
   .jss21{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+   */
 }
 

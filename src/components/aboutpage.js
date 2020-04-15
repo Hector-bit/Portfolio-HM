@@ -8,7 +8,7 @@ const useStyles = makeStyles({
       flexDirection: 'column',
       margin: '1%',
       padding: '1%',
-      width: '50%'
+    //   width: '50%'
     },
     aboutParagraph: {
         display: 'flex',
@@ -29,7 +29,7 @@ const useStyles = makeStyles({
 function Aboutpage(){
     const classes = useStyles();
     return(
-        <section className={classes.aboutSection}>
+        <section className='about_section'>
             <h2>About</h2>
             <div className='aboutDiv'>
                 <img className={classes.aboutPicture} src={profile_picture} alt='Hector Martinez'/>

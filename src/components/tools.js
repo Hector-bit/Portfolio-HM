@@ -5,17 +5,19 @@ const useStyles = makeStyles({
     tools_about: {
         margin: '1%',
         padding: '1%',
-        width: '50%',
     },
     tools: {
+        display: 'flex',
+        justifyContent: 'center',
         margin: '1%',
+        padding: '1%'
     }
 })
 
 function Tools(){
     const classes = useStyles();
     return(
-        <section className={classes.tools_about}>
+        <section className='tools_tool'>
             <h2>Tools</h2>
             <div className={classes.tools}>
                 <ul className='tool'>
