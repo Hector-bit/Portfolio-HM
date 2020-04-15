@@ -26,7 +26,7 @@ li {
 }
 
 .about_section {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 50%;
 }
 .about_and_tools {
@@ -43,14 +43,14 @@ li {
 }
 
 .tools_tool{
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 50%;
 }
 
 .tools{
   display: flex;
   justify-content: space-evenly;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 @media (max-width: 600px) {
@@ -58,7 +58,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* width: 100%; */
   }
 
@@ -70,7 +70,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     justify-content: center;
     /* width: 100%; */
   }
@@ -79,14 +79,19 @@ li {
   }
   .makeStyles-tools_about-16{
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     flex-direction: column;
   }
-  .jss2{
+  .jss19{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  /* .makeStyles-projects-19{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
 }
 

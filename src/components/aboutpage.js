@@ -1,5 +1,6 @@
 import React from 'react';
 import profile_picture from '../images/standin.png';
+import profile_of_me from '../images/hectorMartinez.jpg'
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
@@ -32,8 +33,8 @@ function Aboutpage(){
         <section className='about_section'>
             <h2>About</h2>
             <div className='aboutDiv'>
-                <img className={classes.aboutPicture} src={profile_picture} alt='Hector Martinez'/>
-                <p className={classes.aboutParagraph}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <img className={classes.aboutPicture} src={profile_of_me} alt='Hector Martinez'/>
+                <p className={classes.aboutParagraph}>I am a highly capable, full stack developer with experience programming everything from Web API's to Embedded systems. My diverse background across a wide range of problem domains allows me to approach issues in a pragmatic and all-encompassing way.</p>
             </div>
         </section>
     )
