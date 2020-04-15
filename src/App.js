@@ -6,6 +6,7 @@ import Aboutpage from './components/aboutpage';
 import Tools from './components/tools';
 import ProjectsSection from './components/projectsSection';
 import ContactInfo from './components/contactInfo';
+import Footer from './components/footer';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
@@ -17,6 +18,7 @@ const useStyles = makeStyles({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-evenly',
+    margin: '5% 0'
   }
 })
 
@@ -36,6 +38,7 @@ function App() {
         <ProjectsSection/>
         <ContactInfo/>
       </section>
+      <Footer/>
     </div>
   );
 }
