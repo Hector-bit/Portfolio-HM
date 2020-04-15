@@ -18,9 +18,7 @@ const useStyles = makeStyles({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-evenly',
-    margin: '5% 0',
-    border: '2px solid red',
-    
+    margin: '5% 0',    
   }
 })
 
