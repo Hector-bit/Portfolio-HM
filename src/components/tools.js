@@ -19,7 +19,7 @@ function Tools(){
     return(
         <section className='tools_tool'>
             <h2>Tools</h2>
-            <div className={classes.tools}>
+            <div className='tools'>
                 <ul className='tool'>
                     <li>JavaScript</li>
                     <li>React</li>

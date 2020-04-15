@@ -21,10 +21,6 @@
   justify-content: space-around;
 }
 
-.tool {
-  padding: 0 9%;
-}
-
 li {
   font-size: 20px;
 }
@@ -49,6 +45,12 @@ li {
 .tools_tool{
   border: 2px solid blue;
   width: 50%;
+}
+
+.tools{
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid red;
 }
 
 @media (max-width: 600px) {
