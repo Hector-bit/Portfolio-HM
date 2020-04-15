@@ -2,6 +2,7 @@
 
 Repos for Personal portfolio
 Personal Portfolio contains:
- - Resume PDF
+ - About
+ - Resume PDF and link
  - Projects
  - Tools

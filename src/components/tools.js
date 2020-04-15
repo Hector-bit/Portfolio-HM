@@ -6,12 +6,9 @@ const useStyles = makeStyles({
         margin: '1%',
         padding: '1%',
         width: '50%',
-        border: '3px solid red'
     },
     tools: {
         margin: '1%',
-        // width: '50%',
-        border: '2px solid red'
     }
 })
 

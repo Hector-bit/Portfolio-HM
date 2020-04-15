@@ -6,30 +6,23 @@ const useStyles = makeStyles({
     aboutSection: {
       display: 'flex',
       flexDirection: 'column',
-      border: '2px solid red',
-    //   justifyContent: 'center',
       margin: '1%',
       padding: '1%',
       width: '50%'
     },
     aboutParagraph: {
         display: 'flex',
-        // justifyContent: 'center',
         maxWidth: '90%',
         margin: '1%',
     },
     aboutPicture: {
         display: 'flex',
-        // justifyContent: 'center',
-        border: '2px solid red',
         width: '200px',
         heigth: '200px'
     },
     aboutDiv: {
         display: 'flex',
         flexDirection: 'row',
-        border: '2px solid red',
-        // alignItems: 'center'
     }
   })
 

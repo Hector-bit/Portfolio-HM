@@ -6,8 +6,8 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import PortfolioImage from '../images/PortImage.png';
-import PortfolioModal from './PortfolioModal';
+import HackathonImage from '../../images/HackathonPortal.png';
+import HackathonCardModal from './HackathonCardModal';
 
 const useStyles = makeStyles({
   root: {
@@ -20,29 +20,29 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MacroCard() {
+export default function HackathonCard() {
   const classes = useStyles();
 
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <a href="https://martinezhector.com/">
+        <a href="https://hackathon-portal-19-fe.now.sh">
           <CardMedia
           className={classes.media}
-          image={PortfolioImage}
+          image={HackathonImage}
           title="Contemplative Reptile"/>
         </a>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Portfolio Website
+            Hackathon Portal
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Personal portfolio used to showcase what I can do.
+            Hackathon portal is a place to host, sign up, and judge Hackathon projects.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <PortfolioModal/>
+        <HackathonCardModal/>
       </CardActions>
     </Card>
   );
