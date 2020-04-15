@@ -35,6 +35,10 @@ li {
     flex-direction: column;
     align-items: center;
   }
+  .jss14{
+    display: flex;
+    flex-direction: column;
+  }
   .jss21{
     display: flex;
     flex-direction: column;
