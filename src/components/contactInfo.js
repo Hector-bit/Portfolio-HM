@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     contact_section: {
-        margin: '5% 0'
+        margin: '7% 0'
     }
 })
 

@@ -6,7 +6,7 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     projects_section: {
-        margin: '5% 0'
+        margin: '7% 0'
     },
     projects:{
         display: 'flex',

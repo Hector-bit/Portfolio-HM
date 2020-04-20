@@ -14,12 +14,6 @@ const useStyles = makeStyles({
     margin: 'auto',
     maxWidth: '1200px',
   },
-  // tools_and_about: {
-  //   display: 'flex',
-  //   flexDirection: 'colunm',
-  //   justifyContent: 'space-evenly',
-  //   margin: '5% 0',    
-  // }
 })
 
 function App() {

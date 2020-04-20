@@ -32,6 +32,7 @@ li {
 .about_and_tools {
   display: flex;
   flex-direction: row;
+  margin: 7% 0;
 }
 
 .aboutDiv {
