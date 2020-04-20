@@ -90,6 +90,7 @@ export default function SpringModal() {
               <ul>
                 <li>JavaScript</li>
                 <li>React</li>
+                <li>SASS</li>
               </ul>
             </div>
           </div>
