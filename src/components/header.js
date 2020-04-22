@@ -12,7 +12,6 @@ const useStyles = makeStyles({
       color: 'white',
       fontSize: '22px',
       backgroundColor: 'black',
-      // boxShadow: '0px 4px grey',
     },
     icons: {
       display: 'flex',

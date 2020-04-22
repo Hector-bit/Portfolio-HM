@@ -9,7 +9,6 @@ const useStyles = makeStyles({
       flexDirection: 'column',
       margin: '1%',
       padding: '1%',
-    //   width: '50%'
     },
     aboutParagraph: {
         display: 'flex',
@@ -21,10 +20,6 @@ const useStyles = makeStyles({
         width: '200px',
         heigth: '200px'
     },
-    // aboutDiv: {
-    //     display: 'flex',
-    //     flexDirection: 'row',
-    // }
   })
 
 function Aboutpage(){
