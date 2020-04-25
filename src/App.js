@@ -22,7 +22,6 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      {/* <Title/> */}
       <section className={classes.mainpage}>
         <section className='about_and_tools'>
           <Aboutpage/>
