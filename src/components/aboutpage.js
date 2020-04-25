@@ -1,5 +1,4 @@
 import React from 'react';
-import profile_picture from '../images/standin.png';
 import profile_of_me from '../images/hectorMartinez.jpg'
 import { makeStyles } from '@material-ui/core/styles';
 
