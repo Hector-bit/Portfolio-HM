@@ -6,7 +6,6 @@ const useStyles = makeStyles({
     titleSection: {
       display: 'flex',
       flexDirection: 'column',
-    //   backgroundImage: "url('../images/time.jpg')",
       },
     name: {
         display: 'flex',
