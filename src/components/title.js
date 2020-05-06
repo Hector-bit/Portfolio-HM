@@ -1,6 +1,5 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
-import backgroundPhoto from '../images/background.jpg';
 
 const useStyles = makeStyles({
     titleSection: {
