@@ -29,12 +29,12 @@ function Tools(){
             <h2>Tools</h2>
             <div className='tools'>
                 <img className='tool' src={javascript} alt='Javascript'/>
-                <img className='tool' src={react} alt='Javascript'/>
-                <img className='tool' src={redux} alt='Javascript'/>
-                <img className='tool' src={node} alt='Javascript'/>
-                <img className='tool' src={python} alt='Javascript'/>
-                <img className='tool' src={sql} alt='Javascript'/>
-                <img className='tool' src={scss} alt='Javascript'/>
+                <img className='tool' src={react} alt='React'/>
+                <img className='tool' src={redux} alt='Redux'/>
+                <img className='tool' src={node} alt='Node'/>
+                <img className='tool' src={python} alt='Python'/>
+                <img className='tool' src={sql} alt='SQL'/>
+                <img className='tool' src={scss} alt='SCSS'/>
             </div>  
         </section> 
     )
