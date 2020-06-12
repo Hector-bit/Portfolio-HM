@@ -37,6 +37,8 @@ body .App .midsection .projects_section .projects_container {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 body .App .midsection .tools_tool {

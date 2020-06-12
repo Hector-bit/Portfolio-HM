@@ -2,7 +2,7 @@ import React from 'react';
 import HackathonCard from './projects/HackathonCard';
 import MacroCard from './projects/MacroCard';
 import PortfolioWebsite from './projects/Portfolio';
-import { makeStyles } from '@material-ui/core/styles';
+import BorderTownRes from './projects/BorderTownResCard';
 
 // const useStyles = makeStyles({
 //     projects_section: {
@@ -23,6 +23,7 @@ function ProjectsSection() {
                 <HackathonCard/>
                 <MacroCard/>
                 <PortfolioWebsite/>
+                <BorderTownRes/>
             </div>
         </section>
     )

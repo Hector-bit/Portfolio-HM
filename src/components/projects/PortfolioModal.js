@@ -84,7 +84,7 @@ export default function SpringModal() {
           <div className={classes.paper}>
             <h2 id="spring-modal-title">Portfolio Website</h2>
             <p id="spring-modal-description">Personal portfolio used to showcase what I can do.</p>
-            <p>Github: <a href="https://github.com/Hector-bit/Portfolio-HM">Portfolio Website</a></p>
+            <p>Github: <a href="https://github.com/Hector-bit/Portfolio-HM">Portfolio Website Github</a></p>
             <div>
             <h3>Stack</h3>
               <ul>

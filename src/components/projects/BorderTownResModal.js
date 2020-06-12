@@ -82,24 +82,20 @@ export default function SpringModal() {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <h2 id="spring-modal-title">Hackathon Portal</h2>
+            <h2 id="spring-modal-title">Bordertown Mexican Grill</h2>
             <p id="project-description">Hackathon portal is a place to host, judge, and partipate in hackathons.</p>
-            <p>Live site: <a href="https://hackathon-portal-19-fe.now.sh">Hackathon Portal</a></p>
-            <p>Github: <a href="https://github.com/Lambda-School-Labs/hackathon-portal-fe">Hackathon Portal Github</a></p>
+            <p>Live site: <a href="https://bordertownmexicangrill.com/">https://bordertownmexicangrill.com/</a></p>
+            {/* <p>Github: <a href="https://github.com/Lambda-School-Labs/hackathon-portal-fe">Hackathon Portal</a></p> */}
             <div>
             <h3>Stack</h3>
               <ul>
                 <li>JavaScript</li>
-                <li>Auth0</li>
                 <li>React</li>
-                <li>Redux</li>
-                <li>Node</li>
                 <li>Sass</li>
-                <li>SQL</li>
               </ul>
             </div>
-            <p>Premade username: Hector</p>
-            <p>Premade password: Password123</p>
+            {/* <p>Premade username: Hector</p>
+            <p>Premade password: Password123</p> */}
           </div>
         </Fade>
       </Modal>
