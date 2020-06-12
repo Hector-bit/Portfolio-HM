@@ -4,22 +4,22 @@ import MacroCard from './projects/MacroCard';
 import PortfolioWebsite from './projects/Portfolio';
 import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles({
-    projects_section: {
-        margin: '7% 0'
-    },
-    projects:{
-        display: 'flex',
-        justifyContent: 'center',
-    }
-})
+// const useStyles = makeStyles({
+//     projects_section: {
+//         margin: '7% 0'
+//     },
+//     projects:{
+//         display: 'flex',
+//         justifyContent: 'center',
+//     }
+// })
 
 function ProjectsSection() {
-    const classes = useStyles()
+    // const classes = useStyles()
     return (
-        <section className={classes.projects_section}>
+        <section className='projects_section'>
             <h2 className='projectsTitle'>Projects</h2>
-            <div className={classes.projects}>
+            <div className='projects_container'>
                 <HackathonCard/>
                 <MacroCard/>
                 <PortfolioWebsite/>

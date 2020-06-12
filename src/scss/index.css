@@ -29,6 +29,16 @@ body .App .midsection {
   margin: 5%;
 }
 
+body .App .midsection .projects_section .projects_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 body .App .midsection .tools_tool {
   margin: auto;
 }
@@ -36,5 +46,52 @@ body .App .midsection .tools_tool {
 body .App .midsection .tools_tool .tools .tool {
   padding: 1%;
   width: 15%;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body .App .header {
+    background-image: url("../images/cool-background.png");
+    border: 2px solid black;
+  }
+  body .App .header #name {
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    padding: 5%;
+    font-size: 3em;
+  }
+  body .App .midsection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 1200px;
+    margin: 5%;
+  }
+  body .App .midsection .projects_section .projects_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1%;
+  }
+  body .App .midsection .tools_tool {
+    margin: auto;
+  }
+  body .App .midsection .tools_tool .tools .tool {
+    padding: 1%;
+    width: 15%;
+  }
 }
 /*# sourceMappingURL=index.css.map */
