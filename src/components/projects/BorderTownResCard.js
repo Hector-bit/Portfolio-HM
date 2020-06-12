@@ -26,7 +26,7 @@ export default function BorderTownResCard() {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <a href="https://hackathon-portal-19-fe.now.sh">
+        <a href="https://bordertownmexicangrill.com/">
           <CardMedia
           className={classes.media}
           image={bmg}
