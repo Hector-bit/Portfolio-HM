@@ -1,5 +1,5 @@
 import React from 'react';
-import profile_of_me from '../images/hectorMartinez.jpg'
+// import profile_of_me from '../images/hectorMartinez.jpg'
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({

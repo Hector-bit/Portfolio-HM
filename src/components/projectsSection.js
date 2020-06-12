@@ -2,7 +2,7 @@ import React from 'react';
 import HackathonCard from './projects/HackathonCard';
 import MacroCard from './projects/MacroCard';
 import PortfolioWebsite from './projects/Portfolio';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     projects_section: {
