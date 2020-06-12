@@ -8,7 +8,7 @@ import ProjectsSection from './components/projectsSection';
 import ContactInfo from './components/contactInfo';
 import Footer from './components/footer';
 //Pictures
-import mainphoto from './images/MainPicture.jpg';
+// import mainphoto from './images/MainPicture.jpg';
 // import { makeStyles } from '@material-ui/core/styles';
 
 // const useStyles = makeStyles({
