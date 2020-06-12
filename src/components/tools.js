@@ -28,13 +28,34 @@ function Tools(){
         <section className='tools_tool'>
             <h2>Tools</h2>
             <div className='tools'>
-                <img className='tool' src={javascript} alt='Javascript'/>
-                <img className='tool' src={react} alt='React'/>
-                <img className='tool' src={redux} alt='Redux'/>
-                <img className='tool' src={node} alt='Node'/>
-                <img className='tool' src={python} alt='Python'/>
-                <img className='tool' src={sql} alt='SQL'/>
-                <img className='tool' src={scss} alt='SCSS'/>
+                <div className='tool'>
+                    <img className='tool_image' src={javascript} alt='Javascript'/>
+                    <h3>Javascript</h3>
+                </div>
+                <div className='tool'>
+                    <img className='tool_image' src={react} alt='react'/>
+                    <h3>React</h3>
+                </div>
+                <div className='tool'>
+                    <img className='tool_image' src={redux} alt='redux'/>
+                    <h3>Redux</h3>
+                </div>
+                <div className='tool'>
+                    <img className='tool_image' src={node} alt='node'/>
+                    <h3>Node</h3>
+                </div>
+                <div className='tool'>
+                    <img className='tool_image' src={python} alt='python'/>
+                    <h3>Python</h3>
+                </div>
+                <div className='tool'>
+                    <img className='tool_image' src={sql} alt='SQL'/>
+                    <h3>SQL</h3>
+                </div>
+                <div className='tool'>
+                    <img className='tool_image' src={scss} alt='sass'/>
+                    <h3>SASS</h3>
+                </div>
             </div>  
         </section> 
     )

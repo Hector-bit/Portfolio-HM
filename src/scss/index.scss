@@ -29,15 +29,28 @@ body {
                 .projects_container{
                     display: flex;
                     flex-direction: row;
+                    // justify-content: space-evenly;
                     flex-wrap: wrap;
                 }
             }
             .tools_tool{
                 margin: auto;
                 .tools{
+                    display: flex;
+                    // justify-content: space-evenly;
+                    flex-wrap: wrap;
+                    // border: 2px solid blue;
                     .tool{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        // width: 15%;
+                        // border: 2px solid green;
                         padding: 1%;
-                        width: 15%;
+                        .tool_image{
+                            width: 150px;
+                            height: auto;
+                        }
                     }
                 }
             }
@@ -85,9 +98,21 @@ body {
                 .tools_tool{
                     margin: auto;
                     .tools{
+                        display: flex;
+                        justify-content: space-evenly;
+                        flex-wrap: wrap;
+                        // border: 2px solid blue;
                         .tool{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            // width: 15%;
+                            // border: 2px solid green;
                             padding: 1%;
-                            width: 15%;
+                            .tool_image{
+                                width: 60px;
+                                height: auto;
+                            }
                         }
                     }
                 }
