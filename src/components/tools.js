@@ -7,23 +7,8 @@ import react from '../images/react.png';
 import redux from '../images/redux.png';
 import scss from '../images/scss.png';
 import sql from '../images/sql.png';
-// import { makeStyles } from '@material-ui/core/styles';
-
-// const useStyles = makeStyles({
-//     tools_about: {
-//         margin: '1%',
-//         padding: '1%',
-//     },
-//     tools: {
-//         display: 'flex',
-//         justifyContent: 'center',
-//         margin: '1%',
-//         padding: '1%'
-//     }
-// })
 
 function Tools(){
-    // const classes = useStyles();
     return(
         <section className='tools_tool'>
             <h2>Tools</h2>
