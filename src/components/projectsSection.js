@@ -4,16 +4,6 @@ import MacroCard from './projects/MacroCard';
 import PortfolioWebsite from './projects/Portfolio';
 import BorderTownRes from './projects/BorderTownResCard';
 
-// const useStyles = makeStyles({
-//     projects_section: {
-//         margin: '7% 0'
-//     },
-//     projects:{
-//         display: 'flex',
-//         justifyContent: 'center',
-//     }
-// })
-
 function ProjectsSection() {
     // const classes = useStyles()
     return (

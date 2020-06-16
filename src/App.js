@@ -1,6 +1,5 @@
 import React from 'react';
 import './scss/index.css';
-// import Title from './components/title';
 import Header from './components/header';
 import Aboutpage from './components/aboutpage';
 import Tools from './components/tools';
