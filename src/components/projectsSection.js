@@ -5,7 +5,6 @@ import PortfolioWebsite from './projects/Portfolio';
 import BorderTownRes from './projects/BorderTownResCard';
 
 function ProjectsSection() {
-    // const classes = useStyles()
     return (
         <section className='projects_section'>
             <h2 className='projectsTitle'>Projects</h2>
