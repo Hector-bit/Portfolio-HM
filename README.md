@@ -6,3 +6,4 @@ Personal Portfolio contains:
  - Resume PDF and link to resume maybe
  - Projects
  - Tools
+ - Contact
