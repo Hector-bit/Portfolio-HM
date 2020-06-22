@@ -7,3 +7,6 @@ Personal Portfolio contains:
  - Projects
  - Tools
  - Contact
+
+ remember to add:
+ - Work experience
