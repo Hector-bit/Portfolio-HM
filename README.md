@@ -8,5 +8,6 @@ Personal Portfolio contains:
  - Tools
  - Contact
 
- remember to add:
- - Work experience
+Built with:
+ - React
+ - SASS
