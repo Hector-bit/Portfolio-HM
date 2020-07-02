@@ -6,7 +6,3 @@ Personal Portfolio contains:
  - Projects
  - Tools
  - Contact
-
-Built with:
- - React
- - SASS

@@ -17,6 +17,11 @@ body .App .header #name {
   font-size: 3.5em;
 }
 
+body .App .about_section {
+  padding: 1%;
+  border-radius: 8px;
+}
+
 body .App .midsection {
   display: -webkit-box;
   display: -ms-flexbox;
