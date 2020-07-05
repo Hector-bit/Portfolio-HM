@@ -21,9 +21,8 @@ body {
         }
         .about_section {
             padding: 1%;
-            // border: 3px solid red;
             border-radius: 8px;
-            // box-shadow: 1px 2px black;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
         }
         .midsection{
             display: flex;
@@ -32,15 +31,20 @@ body {
             max-width: 1200px;
             margin: 5%;
             .projects_section{
+                padding: 1%;
+                border-radius: 8px;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
                 .projects_container{
                     display: flex;
                     flex-direction: row;
-                    // justify-content: space-evenly;
+                    justify-content: space-around;
                     flex-wrap: wrap;
                 }
             }
             .tools_tool{
-                margin: auto;
+                padding: 1%;
+                border-radius: 8px;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
                 .tools{
                     display: flex;
                     // justify-content: space-evenly;
@@ -59,6 +63,11 @@ body {
                         }
                     }
                 }
+            }
+            .contact{
+                padding: 1%;
+                border-radius: 8px;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
             }
         }
     }

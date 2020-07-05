@@ -20,6 +20,8 @@ body .App .header #name {
 body .App .about_section {
   padding: 1%;
   border-radius: 8px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 body .App .midsection {
@@ -34,6 +36,13 @@ body .App .midsection {
   margin: 5%;
 }
 
+body .App .midsection .projects_section {
+  padding: 1%;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
 body .App .midsection .projects_section .projects_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,12 +51,17 @@ body .App .midsection .projects_section .projects_container {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 body .App .midsection .tools_tool {
-  margin: auto;
+  padding: 1%;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 body .App .midsection .tools_tool .tools {
@@ -75,6 +89,13 @@ body .App .midsection .tools_tool .tools .tool {
 body .App .midsection .tools_tool .tools .tool .tool_image {
   width: 150px;
   height: auto;
+}
+
+body .App .midsection .contact {
+  padding: 1%;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 @media (max-width: 600px) {
