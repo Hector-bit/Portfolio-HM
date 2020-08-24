@@ -1,24 +1,4 @@
 import React from 'react';
-// import { makeStyles } from '@material-ui/core/styles';
-
-// const useStyles = makeStyles({
-//     aboutSection: {
-//       display: 'flex',
-//       flexDirection: 'column',
-//       margin: '1%',
-//       padding: '1%',
-//     },
-//     aboutParagraph: {
-//         display: 'flex',
-//         maxWidth: '90%',
-//         margin: '1%',
-//     },
-//     aboutPicture: {
-//         display: 'flex',
-//         width: '200px',
-//         heigth: '200px'
-//     },
-//   })
 
 function Aboutpage(){
     // const classes = useStyles();
