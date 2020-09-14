@@ -26,7 +26,7 @@ export default function HackathonCard() {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <a href="https://hackathon-portal-19-fe.now.sh">
+        <a href="https://www.hackathon-portal.tech/">
           <CardMedia
           className={classes.media}
           image={HackathonImage}
