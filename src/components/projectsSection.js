@@ -3,6 +3,7 @@ import HackathonCard from './projects/HackathonCard';
 import MacroCard from './projects/MacroCard';
 import PortfolioWebsite from './projects/Portfolio';
 import BorderTownRes from './projects/BorderTownResCard';
+import Inmoov from './projects/Inmoov';
 
 function ProjectsSection() {
     return (
@@ -13,6 +14,7 @@ function ProjectsSection() {
                 <MacroCard/>
                 <PortfolioWebsite/>
                 <BorderTownRes/>
+                <Inmoov/>
             </div>
         </section>
     )
