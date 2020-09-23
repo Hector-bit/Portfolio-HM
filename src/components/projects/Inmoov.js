@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import temp from '../../images/cool-background.png';
+import inmoovpicture from '../../images/inmoov.png';
 import InmoovModal from './InmoovModal';
 
 const useStyles = makeStyles({
@@ -29,7 +29,7 @@ export default function MacroCard() {
         {/* <a href="#"> */}
           <CardMedia
           className={classes.media}
-          image={temp}
+          image={inmoovpicture}
           title="Inmoov Robot"/>
         {/* </a> */}
         <CardContent>
