@@ -83,7 +83,7 @@ export default function SpringModal() {
         <Fade in={open}>
           <div className={classes.paper}>
             <h2 id="spring-modal-title">Inmoov Robot</h2>
-            <p id="spring-modal-description">This project was given to me by Bellingham Makerspace to finish. And I will be building the left arm.</p>
+            <p id="spring-modal-description">This project was given to me by Bellingham Makerspace to finish.</p>
             {/* <p>Github: <a href="https://github.com/Hector-bit/Portfolio-HM">Portfolio Website Github</a></p> */}
             <div>
             <h3>Stack</h3>
