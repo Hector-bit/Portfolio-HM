@@ -34,7 +34,7 @@ export default function MacroCard() {
         {/* </a> */}
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Inmoov Robot
+            Robot Arm
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             Robot project to learn about applied computer science and engineering.
