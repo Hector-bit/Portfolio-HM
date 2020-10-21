@@ -44,6 +44,7 @@ function Tools(){
                 </div>
                 <div className='tool'>
                     <img className='tool_image' src={wordpress} alt='wordpress'/>
+                    <h3>Wordpress</h3>
                 </div>
             </div>  
         </section> 
