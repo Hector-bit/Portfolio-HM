@@ -1,49 +1,99 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Typography from '@material-ui/core/Typography';
-import bmg from '../../images/bmg.jpg';
-import BorderTownResModal from './BorderTownResModal';
+import Modal from '@material-ui/core/Modal';
+import Backdrop from '@material-ui/core/Backdrop';
+import Button from '@material-ui/core/Button';
+import { useSpring, animated } from 'react-spring/web.cjs';
 
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-    margin: '1%',
-    padding: '1%'
+const useStyles = makeStyles((theme) => ({
+  modal: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
-  media: {
-    height: 140,
+  paper: {
+    backgroundColor: theme.palette.background.paper,
+    border: '2px solid black',
+    boxShadow: theme.shadows[5],
+    padding: theme.spacing(2, 4, 3),
   },
-});
+}));
 
-export default function BorderTownResCard() {
-  const classes = useStyles();
+const Fade = React.forwardRef(function Fade(props, ref) {
+  const { in: open, children, onEnter, onExited, ...other } = props;
+  const style = useSpring({
+    from: { opacity: 0 },
+    to: { opacity: open ? 1 : 0 },
+    onStart: () => {
+      if (open && onEnter) {
+        onEnter();
+      }
+    },
+    onRest: () => {
+      if (!open && onExited) {
+        onExited();
+      }
+    },
+  });
 
   return (
-    <Card className={classes.root}>
-      <CardActionArea>
-        <a href="https://bordertownmexicangrill.com/">
-          <CardMedia
-          className={classes.media}
-          image={bmg}
-          title="Contemplative Reptile"/>
-        </a>
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Bordertown Mexican Grill
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Website for local restaurant in Blaine Washington
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <BorderTownResModal/>
-      </CardActions>
-    </Card>
+    <animated.div ref={ref} style={style} {...other}>
+      {children}
+    </animated.div>
+  );
+});
+
+Fade.propTypes = {
+  children: PropTypes.element,
+  in: PropTypes.bool.isRequired,
+  onEnter: PropTypes.func,
+  onExited: PropTypes.func,
+};
+
+export default function SpringModal() {
+  const classes = useStyles();
+  const [open, setOpen] = React.useState(false);
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  return (
+    <div>
+      <Button color='primary' onClick={handleOpen}>
+        LEARN MORE
+      </Button>
+      <Modal
+        aria-labelledby="spring-modal-title"
+        aria-describedby="spring-modal-description"
+        className={classes.modal}
+        open={open}
+        onClose={handleClose}
+        closeAfterTransition
+        BackdropComponent={Backdrop}
+        BackdropProps={{
+          timeout: 500,
+        }}
+      >
+        <Fade in={open}>
+          <div className={classes.paper}>
+            <h2 id="spring-modal-title">Android Game</h2>
+            <p id="project-description">Mobile 2D platformer made with unity.</p>
+            {/* <p>Live site: <a href="https://bordertownmexicangrill.com/">https://bordertownmexicangrill.com/</a></p> */}
+            <div>
+            <h3>Stack</h3>
+              <ul>
+                <li>Unity</li>
+              </ul>
+            </div>
+          </div>
+        </Fade>
+      </Modal>
+    </div>
   );
 }

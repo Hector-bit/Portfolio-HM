@@ -34,10 +34,10 @@ export default function BorderTownResCard() {
         </a>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Bordertown Mexican Grill
+            Android Game
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Website for local restaurant in Blaine Washington
+            Mobile 2D platformed developed with Unity
           </Typography>
         </CardContent>
       </CardActionArea>
