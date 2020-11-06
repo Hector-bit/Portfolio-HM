@@ -7,6 +7,7 @@ import react from '../images/react.png';
 import redux from '../images/redux.png';
 import scss from '../images/scss.png';
 import sql from '../images/sql.png';
+import wordpress from '../images/wordpress.png';
 
 function Tools(){
     return(
@@ -40,6 +41,10 @@ function Tools(){
                 <div className='tool'>
                     <img className='tool_image' src={scss} alt='sass'/>
                     <h3>SASS</h3>
+                </div>
+                <div className='tool'>
+                    <img className='tool_image' src={wordpress} alt='wordpress'/>
+                    <h3>Wordpress</h3>
                 </div>
             </div>  
         </section> 
