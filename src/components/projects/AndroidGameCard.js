@@ -6,8 +6,8 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import bmg from '../../images/bmg.jpg';
-import BorderTownResModal from './BorderTownResModal';
+import androidGamePicture from '../../images/androidGame.png';
+import AndroidGameModal from './AndroidGameModal';
 
 const useStyles = makeStyles({
   root: {
@@ -29,7 +29,7 @@ export default function BorderTownResCard() {
         <a href="https://bordertownmexicangrill.com/">
           <CardMedia
           className={classes.media}
-          image={bmg}
+          image={androidGamePicture}
           title="Contemplative Reptile"/>
         </a>
         <CardContent>
@@ -42,7 +42,7 @@ export default function BorderTownResCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <BorderTownResModal/>
+        <AndroidGameModal/>
       </CardActions>
     </Card>
   );
