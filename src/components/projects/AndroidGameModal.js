@@ -84,12 +84,14 @@ export default function SpringModal() {
           <div className={classes.paper}>
             <h2 id="spring-modal-title">Android Game</h2>
             <p id="project-description">Mobile 2D platformer made with unity.</p>
+            <p>The overall goal of this project is to challenge myself to learn new things and pick up new skills. I am learning how to use the Unity game engine as well as c#, level design, scripting, animation. I push all of my assets to Github and I am hoping to get this game on the App store before 2020 ends.</p>
             {/* <p>Live site: <a href="https://bordertownmexicangrill.com/">https://bordertownmexicangrill.com/</a></p> */}
+            <p>Github: <a href="https://github.com/Hector-bit/AndroidGame">https://github.com/Hector-bit/AndroidGame</a></p>
             <div>
-            <h3>Stack</h3>
-              <ul>
-                <li>Unity</li>
-              </ul>
+              <h3>Stack</h3>
+                <ul>
+                  <li>Unity</li>
+                </ul>
             </div>
           </div>
         </Fade>
