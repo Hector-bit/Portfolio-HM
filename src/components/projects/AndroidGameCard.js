@@ -37,7 +37,7 @@ export default function BorderTownResCard() {
             Android Game
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Mobile 2D platformed developed with Unity
+            Mobile 2D platformed developed with Unity.
           </Typography>
         </CardContent>
       </CardActionArea>
