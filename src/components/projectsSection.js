@@ -4,6 +4,7 @@ import MacroCard from './projects/MacroCard';
 import PortfolioWebsite from './projects/Portfolio';
 import BorderTownRes from './projects/BorderTownResCard';
 import Inmoov from './projects/Inmoov';
+import AndroidGame from './projects/AndroidGameCard'
 
 function ProjectsSection() {
     return (
@@ -15,6 +16,7 @@ function ProjectsSection() {
                 <PortfolioWebsite/>
                 <BorderTownRes/>
                 <Inmoov/>
+                <AndroidGame/>
             </div>
         </section>
     )
