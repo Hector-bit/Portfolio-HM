@@ -8,6 +8,7 @@ import redux from '../images/redux.png';
 import scss from '../images/scss.png';
 import sql from '../images/sql.png';
 import wordpress from '../images/wordpress.png';
+import arduino from '../images/arduino.png';
 
 function Tools(){
     return(
@@ -45,6 +46,10 @@ function Tools(){
                 <div className='tool'>
                     <img className='tool_image' src={wordpress} alt='wordpress'/>
                     <h3>Wordpress</h3>
+                </div>
+                <div className='tool'>
+                    <img className='tool_image' src={arduino} alt='arduino'/>
+                    <h3>Arduino</h3>
                 </div>
             </div>  
         </section> 
