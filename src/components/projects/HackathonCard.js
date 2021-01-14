@@ -26,12 +26,12 @@ export default function HackathonCard() {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <a>
+        {/* <a> */}
           <CardMedia
           className={classes.media}
           image={HackathonImage}
           title="Contemplative Reptile"/>
-        </a>
+        {/* </a> */}
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             Hackathon Portal
