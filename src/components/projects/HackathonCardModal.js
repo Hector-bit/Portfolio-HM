@@ -84,7 +84,7 @@ export default function SpringModal() {
           <div className={classes.paper}>
             <h2 id="spring-modal-title">Hackathon Portal</h2>
             <p id="project-description">Hackathon portal is a place to host, judge, and partipate in hackathons.</p>
-            <p>Live site: <a href="https://www.hackathon-portal.tech/">Hackathon Portal</a></p>
+            <p>Live site: Not available at the moment</p>
             <p>Github: <a href="https://github.com/Lambda-School-Labs/hackathon-portal-fe">Hackathon Portal Github</a></p>
             <div>
             <h3>Stack</h3>
