@@ -13,7 +13,7 @@ function ProjectsSection() {
             <div className='projects_container'>
                 <HackathonCard/>
                 <MacroCard/>
-                <PortfolioWebsite/>
+                {/* <PortfolioWebsite/> */}
                 <BorderTownRes/>
                 <Inmoov/>
                 <AndroidGame/>
