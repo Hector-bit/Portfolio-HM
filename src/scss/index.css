@@ -107,7 +107,7 @@ body .App .midsection .contact {
     -moz-osx-font-smoothing: grayscale;
   }
   body .App .header {
-    background-image: url("../images/cool-background.png");
+    background-image: url("../images/cool-background.webp");
     border: 2px solid black;
   }
   body .App .header #name {

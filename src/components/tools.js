@@ -1,14 +1,14 @@
 import React from 'react';
 //png icons
-import javascript from '../images/javascript.png';
-import node from '../images/node.png';
-import python from '../images/python.png';
-import react from '../images/react.png';
-import redux from '../images/redux.png';
-import scss from '../images/scss.png';
-import sql from '../images/sql.png';
-import wordpress from '../images/wordpress.png';
-import arduino from '../images/arduino.png';
+import javascript from '../images/javascript.webp';
+import node from '../images/node.webp';
+import python from '../images/python.webp';
+import react from '../images/react.webp';
+import redux from '../images/redux.webp';
+import scss from '../images/scss.webp';
+import sql from '../images/sql.webp';
+import wordpress from '../images/wordpress.webp';
+import arduino from '../images/arduino.webp';
 
 function Tools(){
     return(
