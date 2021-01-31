@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import bmg from '../../images/bmg.jpg';
+import bmg from '../../images/bmg.webp';
 import BorderTownResModal from './BorderTownResModal';
 
 const useStyles = makeStyles({

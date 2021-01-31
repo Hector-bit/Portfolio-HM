@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import androidGamePicture from '../../images/androidGame.png';
+import androidGamePicture from '../../images/androidGame.webp';
 import AndroidGameModal from './AndroidGameModal';
 
 const useStyles = makeStyles({

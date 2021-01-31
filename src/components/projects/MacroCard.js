@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import MacroCardImage from '../../images/MacroCalc.png';
+import MacroCardImage from '../../images/MacroCalc.webp';
 import MacroCardModal from './MarcoCardModal';
 
 const useStyles = makeStyles({

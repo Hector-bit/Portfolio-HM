@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import PortfolioImage from '../../images/PortImage.png';
+import PortfolioImage from '../../images/PortImage.webp';
 import PortfolioModal from './PortfolioModal';
 
 const useStyles = makeStyles({

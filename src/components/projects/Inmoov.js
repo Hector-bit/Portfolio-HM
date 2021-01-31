@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import inmoovpicture from '../../images/inmoov.png';
+import inmoovpicture from '../../images/inmoov.webp';
 import InmoovModal from './InmoovModal';
 
 const useStyles = makeStyles({

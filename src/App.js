@@ -7,6 +7,7 @@ import ProjectsSection from './components/projectsSection';
 import ContactInfo from './components/contactInfo';
 import Footer from './components/footer';
 
+//REMINDER: all photos are 2:1 ratio
 function App() {
 
   return (

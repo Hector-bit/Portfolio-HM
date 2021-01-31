@@ -6,7 +6,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import HackathonImage from '../../images/HackathonPortal.png';
+import HackathonImage from '../../images/HackathonPortal.webp';
 import HackathonCardModal from './HackathonCardModal';
 
 const useStyles = makeStyles({
