@@ -85,12 +85,16 @@ export default function SpringModal() {
         <Fade in={open}>
           <div className={classes.paper}>
             <h2 id="spring-modal-title">Robot hand</h2>
-            <p id="spring-modal-description">I build a robot hand to copy the motions of my hand.</p>
+            <p id="spring-modal-description">Simple robot hand that I to be able to control with my real hand through a motion capture sensor</p>
+
             {/* <p>Github: <a href="https://github.com/Hector-bit/Portfolio-HM">Portfolio Website Github</a></p> */}
             <div>
             <h3>Stack</h3>
               <ul>
-                <li>Raspbery Pi 4</li>
+                <li>Leap Motion Capture device</li>
+                <li>Leap Motion SDK</li>
+                <li>Arduino</li>
+                <li>Cura</li>
                 <li>3D Printer: Ender 3</li>
               </ul>
             </div>
