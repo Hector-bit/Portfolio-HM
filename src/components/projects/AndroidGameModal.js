@@ -5,6 +5,8 @@ import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Button from '@material-ui/core/Button';
 import { useSpring, animated } from 'react-spring/web.cjs';
+// import { white } from 'material-ui/styles/colors';
+// import CloseIcon from '@material-ui/icons/Close';
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -13,9 +15,11 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
   },
   paper: {
-    backgroundColor: theme.palette.background.paper,
-    border: '2px solid black',
+    backgroundColor: '#FFFFFF',
+    border: '4px solid black',
+    borderRadius: '50px',
     boxShadow: theme.shadows[5],
+    maxWidth: '800px',
     padding: theme.spacing(2, 4, 3),
   },
 }));

@@ -26,12 +26,12 @@ export default function BorderTownResCard() {
   return (
     <Card className={classes.root}>
       <CardActionArea>
-        <a href="https://bordertownmexicangrill.com/">
+        {/* <a href="https://bordertownmexicangrill.com/"> */}
           <CardMedia
           className={classes.media}
           image={androidGamePicture}
           title="Contemplative Reptile"/>
-        </a>
+        {/* </a> */}
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             Android Game
