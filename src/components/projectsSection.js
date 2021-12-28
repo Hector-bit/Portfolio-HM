@@ -15,7 +15,6 @@ function ProjectsSection() {
                 <MacroCard/>
                 {/* <PortfolioWebsite/> */}
                 <BorderTownRes/>
-                <Inmoov/>
                 <AndroidGame/>
             </div>
         </section>
