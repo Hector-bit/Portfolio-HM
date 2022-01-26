@@ -15,7 +15,7 @@ function Footer(){
     const classes = useStyles()
     return(
         <section className={classes.footer_section}>
-            Copyright © martinezhector.com 2021
+            Copyright © martinezhector.com 2022
         </section>
     )
 }
