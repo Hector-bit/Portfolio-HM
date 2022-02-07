@@ -85,7 +85,7 @@ export default function SpringModal() {
         <Fade in={open}>
           <div className={classes.paper}>
             <h2 id="spring-modal-title">Bordertown Mexican Grill</h2>
-            <p id="project-description">Hackathon portal is a place to host, judge, and partipate in hackathons.</p>
+            <p id="project-description">Website to advertise a local restaurant.</p>
             <p>Live site: <a href="https://bordertownmexicangrill.com/">https://bordertownmexicangrill.com/</a></p>
             <div>
             <h3>Stack</h3>
