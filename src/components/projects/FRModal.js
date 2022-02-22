@@ -89,7 +89,7 @@ export default function SpringModal() {
             <h2 id="spring-modal-title">FR landscaping and excavation</h2>
             <p id="project-description">Website for a local landscaping company.</p>
             <p></p>
-            <p>Github: <a href="https://frexcavationandlandscaping.com/" alt="Link to Github page of mobile game">https://frexcavationandlandscaping.com/</a></p>
+            <p>Github: <a href="https://frexcavationandlandscaping.com/" alt="Link to FR website">https://frexcavationandlandscaping.com/</a></p>
             <div>
               <h3>Stack</h3>
                 <ul>
