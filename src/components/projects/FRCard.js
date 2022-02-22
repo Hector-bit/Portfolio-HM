@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import androidGamePicture from '../../images/fr.webp';
-import AndroidGameModal from './AndroidGameModal';
+import AndroidGameModal from './FRModal';
 
 const useStyles = makeStyles({
   root: {
